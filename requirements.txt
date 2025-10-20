@@ -1,0 +1,5 @@
+
+torch>=2.1.0
+torchaudio>=2.1.0; platform_system!='Windows'
+# torchvision is not required since we use a synthetic dataset and a tiny custom model.
+numpy>=1.24.0

@@ -1,0 +1,16 @@
+{
+  "device": "cpu",
+  "batch_size": 4096,
+  "latency_ms": {
+    "fp32": 2460.326,
+    "amp": null,
+    "torchscript": 2329.373,
+    "int8_dynamic": 2355.276
+  },
+  "throughput_sps": {
+    "fp32": 1664.8,
+    "amp": null,
+    "torchscript": 1758.4,
+    "int8_dynamic": 1739.1
+  }
+}
