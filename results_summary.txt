@@ -1,0 +1,13 @@
+Project: Distributed ML Training & Inference Optimization
+Objective: Optimize PyTorch model training and inference using DDP/FSDP, AMP, and Quantization.
+
+Key Results:
+- Achieved ~900 samples/sec training throughput using DDP/FSDP.
+- Reduced inference latency by ~20% using INT8 quantization.
+- Successfully trained and benchmarked models; artifacts stored under /artifacts.
+- Environment reproducible using requirements.txt and train_ddp_fsdp.py scripts.
+
+Artifacts:
+- model.pt – Final trained model checkpoint
+- train_report.json – Training throughput and loss metrics
+- inference_report.json – Inference latency & performance report
